@@ -1,0 +1,13 @@
+<h1>{{title}}</h1>
+<ul>
+    {{#each books}}
+        <li>
+            <b>{{this.name}}</b><br>
+            Author: {{this.author}}<br>
+            Published: {{this.published}}<br>
+            Language: {{this.language}}<br>
+            Price: {{this.price}}<br>
+            {{#if this.available}}Available{{else}}Not available{{/if}}<br><br>
+        </li>
+    {{/each}}
+</ul>

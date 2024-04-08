@@ -1,0 +1,10 @@
+body
+{
+    background-color: lightgrey;
+    color: black;
+    width: 50vw;
+    margin: 4em auto;
+}
+p {
+    line-height: 0.5;
+  }
